@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace NamespaceOfProject.Controllers
+namespace BestRestaurants.Controllers
 {
     public class HomeController : Controller
     {
@@ -8,6 +8,7 @@ namespace NamespaceOfProject.Controllers
       [HttpGet("/")]
       public ActionResult Index()
       {
+        ViewBag.PageTitle = "Home";
         return View();
       }
 
