@@ -3,10 +3,11 @@
 }
 
 @using BestRestaurants.Models;
-
-<h1>Restaurants</h1>
-
+<div class="title-card">
+    <h1>Restaurants</h1>
+  </div>
 <div class="container">
+
   @if (@Model.Count ==0 )
   {
     <h3>No items have been added yet!</h3>
@@ -27,7 +28,7 @@
   <!-- <p class="btn btn-primary">@Html.ActionLink("Add new restaurant", "Create")</p> -->
   @using (Html.BeginForm("Create", "Restaurants", FormMethod.Get))
 {
-  <input type="submit" value="Add new restaurant" class="btn btn-success">
+  <input type="submit" value="Add new restaurant" class="btn btn-mcdon">
 }
   <p>@Html.ActionLink("Home", "Index", "Home")</p>
 </div>

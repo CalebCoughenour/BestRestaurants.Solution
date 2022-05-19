@@ -40,6 +40,7 @@ namespace BestRestaurants.Controllers
     public ActionResult Details(int id)
     {
       Restaurant thisRestaurant = _db.Restaurants.FirstOrDefault(restaurant => restaurant.RestaurantId == id);
+      ViewBag.Image = thisRestaurant.Name;
       return View(thisRestaurant);
     }
 

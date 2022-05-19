@@ -10,8 +10,11 @@
 <h5>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)</h5>
 <p>@Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)</p>
 
-<img src="" alt="">
+<!-- <img src="~/img/@ViewBag.Image"> -->
 
 <p>@Html.ActionLink("Back To Restaurants", "Index")</p>
 <p>@Html.ActionLink("Edit Restaurant", "Edit", new { id = Model.RestaurantId })</p>
 <p>@Html.ActionLink("Delete Restaurant", "Delete", new { id = Model.RestaurantId })</p>
+
+
+<!-- <img src='~/img/bakery.jpg'/> -->

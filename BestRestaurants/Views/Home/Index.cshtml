@@ -1,8 +1,16 @@
 @{
   Layout = "_Layout";
 }
+<div class="container">
+<div class="title-card">
+  <h1>Looking for the best restaurants around?</h1>
+  <h1>You've found the right place.</h1>
+</div>
 
-<h1>Looking for the best restaurants around? You've found the right place.</h1>
-
-<p>@Html.ActionLink("See all restaurants", "Index", "Restaurants")</p>
-<p>@Html.ActionLink("See all cuisines", "Index", "Cuisines")</p>
+<div class="big-button">
+  <p>@Html.ActionLink("See all restaurants", "Index", "Restaurants")</p>
+</div>
+<div class="big-button">
+  <p>@Html.ActionLink("See all cuisines", "Index", "Cuisines")</p>
+</div>
+</div>

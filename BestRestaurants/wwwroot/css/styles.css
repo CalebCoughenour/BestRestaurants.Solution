@@ -1,15 +1,71 @@
+body {
+  background-color: #c5c5c5;
+}
+
+.title-card {
+  background-color: rgb(218, 41, 28);
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.big-button {
+  background-color: rgb(218, 41, 28);
+  margin-bottom: 2px;
+  padding: 6px;
+  text-align: center;
+  color: hsl(44, 100%, 59%);
+  border-radius: 20px;
+}
+
+a:link {
+  color: hsl(44, 100%, 59%);
+}
+a:visited {
+  color: hsl(44, 100%, 59%);
+}
+a:hover {
+  color: hsl(44, 100%, 49%);
+}
+a:active {
+  color: #ffc72e;
+}
+
+.btn-mcdon {
+  background-color: rgb(218, 41, 28);
+  color: #ffc72e;
+}
+.btn-mcdon:hover {
+  background-color: rgb(131, 19, 11);
+  color: #ffc72e;
+}
+
+p {
+  margin-bottom:0;
+}
+
+h1, h3 {
+  color: hsl(44, 100%, 59%);
+  filter: drop-shadow(3px 3px 0px #3535c0)
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  color: hsl(44, 100%, 59%);
+  background-color: rgb(212, 80, 71);
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 2px solid #3535c0;
   text-align: left;
+  
   padding: 8px;
+  
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: rgb(218, 41, 28);
+  color: hsl(44, 100%, 59%);
 }
