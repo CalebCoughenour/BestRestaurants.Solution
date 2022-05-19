@@ -1,37 +1,42 @@
-# {Application Name}
+# Best Restaurants
 
-#### By **{List of contributors}**
+#### By **Caleb Coughenour, Mark McConnel, Cameron Ray **
 
-#### {Brief description of application}
+#### Best Restaurants is a web application to display restaurants and categoriezed by their cuisine.
 
 ## Technologies Used
 
-* List all
-* the major technologies
-* you used in your project
-* here
+* C#
+* ASPNET Core
+* MySQL
+* Entity Core Framework
+* CSS
 
 ## Description
 
-{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}
+Full CRUD workflow for restaurants and cuisine types. This application allows the user to list restaurants by their type of cusine. It is displayed on a page, the user can update the data fields by navigatng to forms. The user may also remove existing data.
 
 ## Setup/Installation Requirements
 
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
+* Clone the repo
+* Setup create appsettings.json file and include
+* replace the bracket sections with your username and password for MySql
+```
+{
+  "ConnectionStrings": {
+      "DefaultConnection": "Server=localhost;Port=3306;database=best_restaurants;uid=[your_MySql_username]};pwd=[your_MySql_password];"
+  }
+}
+```
+* Download the Database
+* import using MySQL workbench
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
-
-* Any known issues
-* should go here
+* No Known Bugs
 
 ## License
 
 [MIT](LICENSE)
 
-Copyright (c) date author name(s)
+Copyright (c) May 2022 Caleb Coughenour, Mark McConnel, Cameron Ray(s)
